@@ -1,0 +1,31 @@
+
+.home{
+    height: 100vh;
+    background-image: url(../imgs/Layer\ 1\ copy.png)  ;
+    background-repeat: no-repeat;
+    background-color: #622b86;
+    background-position: center; 
+    background-size: 35%;
+    
+}
+.home .cards .container .card{
+    background-color:#fffdfe ;
+    color: #622b86;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.home .cards .container .card a{
+    color: #622b86;
+    text-decoration: none;
+}
+.home .cards .container .card:hover{
+    background-color: #622b86;
+    color: #fffdfe;
+    cursor: pointer;
+
+}
+.home .cards .container .card:hover a{
+    color: #fffdfe;
+    text-decoration: none;
+}
